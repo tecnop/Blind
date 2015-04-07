@@ -1,0 +1,12 @@
+Addons :
+	- Cpp files, extenal addons
+
+Doc :
+	-  Documentations
+
+Src :
+	- Images sources (Gimp / Toshop)
+	- Hodemade files (mesh ? sound sources files ?)
+
+Unity :
+	- Unity root
