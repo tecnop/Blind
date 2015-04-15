@@ -1,0 +1,286 @@
+##
+# Légende :
+##
+[...] : Descriptif de ce qu'il se passe hors dialogue (le script).
+/!\ : Probleme / Attention
+/?\ : Infomration
+// (...) : Commentaires sur ce qu'il se passe dans le jeu
+(?) : Proposition de scénar / script / situation etc ..;
+(T) : Le temps (estimation) que prend un dialogue
+
+<- (...) -> : mode du jeu
+	- IG (In Game) le joueur à la main
+	- C (Cinematic) le joueur n'a pas la main
+> (...) : Dialogue
+
+
+WHILE (...)
+	- Stuff ...
+	- 
+
+
+#################
+#### Intro : ####
+# 		#
+#################
+
+<- Cinematic ->
+
+/?\ Intervient apres le lancement du jeu, ou apres l'action de commencer le jeu / partie
+[ Musique un minumum pump and up ]
+[ A la fin de la musique d'intro, bruit de chute : object lourd tombant sur le sol]
+
+- Jacky
+	- Aie !
+
+
+#################
+#### Tome 1 : ###
+# Le non-voyant #
+#################
+
+##
+# Chapitre 1 : Simon
+##
+
+<- Cinematic ->
+
+[Jacky semble allongé et se lève difficilement, sonné]
+> Jacky :
+	- Aaahh .. 
+	[Se redresse dans la douleur]
+	- Mais kess que j'fous la ...
+	[Petit temps]
+	- Aaaaahhh .. Merde ..
+> Simon :
+	- Salut !
+
+> Jacky :
+	-Ah !
+	[Petit "ah" sec avec une Voix de tapette]
+
+> Simon :
+	- Moi c'est simon ! Ca va ?
+
+/!\
+> Jacky :
+	[ironie]
+	- Super et toi ? Jme ramasse la tronche ici, une demi dizaine de caillaisse dans le fiac, un crétin
+	me cause, y fait froid, j'ai mal au crane, et puis sa pue !
+> Simon :
+	- Je crois qu'on dit plutot "[cite la phrase] une demi [insiste] douzaine"
+	
+> Jacky :
+	- Mais on s'en fous ! Ch'ui quand meme plus au courant du nomdre de cailloux que j'ai 
+	dans mon intimité que toi ! 
+	[petite pause]
+/!\
+	- Kess que je fout ici ?! Et t'ai qui toi ?
+> Simon :
+	[Repete la phrase ci dessus dite sur le même ton]
+	(?) copié coller du samble ci dessus ? pour meilleur effet 
+	- Moi c'est simon !
+[Silence]
+> Simon : 
+	- Hum .. hum, Tous ce que je peux vous dire, c'est que vous etes la maintenant.
+[les Echanges verbaux qui vont suivre sont rapides]
+> Jacky
+	- Et pourquoi ?
+
+> Simon
+	- Je ne le sais pas.
+
+> Jacky
+	- Et t'es qui (?) merde ?!
+
+> Simon
+	-Je vous l'ai deja dit : Simon !
+
+> Jacky
+	- C'est koi cet endroi ?!
+
+> Simon 
+	- C'est le [avec un ton "spécial" héhé] "Donjon" pardis !
+
+> Jacky
+	- Et c'est quoi le [Cite avec mépris] "Donjon pardis" ?
+
+> Simon
+	- Le Donjon : c'est la ou nous sommes !
+
+> Jacky
+	- Mais tu te fous de moi !
+
+> Simon
+	- Je n'ai pas réponse à tout
+
+> Jacky
+	- T'as réponse à rien !
+[Fin des echange rapide]
+
+> Simon 
+	- Tenez, marchez un peu, je vais vous guider
+
+> Jacky
+	- Dit donc, t'aurai pas une tres legere tendance à en n'avoir rien a cirer
+	de ce qu'on te [est coupé pas Simon]
+
+[La voix de Simon s'éloigne]
+
+> Simon
+	- [Super enjoué !] Oui ! Bien ! faites donc quelques pas ! 
+
+> Jacky
+	- Va t'faire v ..
+
+(T) 1m10
+##
+# Chapitre 2 : Tuto : déplacement + toucher
+##
+<- IG ->
+
+// Le jeu passe en mode tuto. Premiere etape : le déplacement
+// Le joueur dois aller vers simon
+// Le joueur ne peux QUE allez tout droit
+> Simon
+	- Appuyez de votre pied sur la fleche avant du tapis, et rejoignez moi donc ! /!\ Adapter le texte sur tapis ou pas
+
+> Jacky
+	- Quoi ?
+
+> Simon
+	- Ce n'est pas à vous que je cause !
+
+
+WHILE (Jacky n'a pas rejoin Simon) {
+	RANDOM {
+		CASE 1 :
+			> Simon
+				- Avancez vers moi !
+	
+		CASE 2 :
+			> Simon
+				- Faite un effort ! Mettez votre pied devant vous sacreubleu !
+		
+		CASE 3 :
+			> Simon
+				- Aller Venez ! On est bien ici ! /?\Semi ref. à "Allez viens on est bien" du gay du net
+	}	
+	
+}
+<- C ->
+> Simon
+	- Bien ! Tendez votre main ! Essayez de me toucher !
+<- IG ->
+
+WHILE (Jacky n'a pas touché Simon) {
+	RANDOM {
+		CASE 1 :
+			> Simon
+				- N'ayez craite, touchez donc moi.
+	
+		CASE 2 :
+			> Simon
+				- Tendez votre main vers moi.
+		
+		CASE 3 :
+			> Simon
+				- Ecouter ma voix, je suis juste là !
+	}	
+	
+}
+
+<- C ->
+
+> Simon
+	- Haha ! C'est bien !
+
+> Jacky
+	- T'es poisseux ...
+
+> Simon
+	- C'est faux ! Il parrait que je porte chance !
+
+> Jacky
+	- T'es quoi au juste ?
+
+> Simon
+	- Un Voyant mon tendre ami.
+
+> Jacky
+	- Un Voyant ? Ca veut rien dire ..
+
+> Simon
+	- Je te vois moi ! Tu es tres laid dailleurs, Ha ha ha !
+
+[Le joueur peut faire un doigt à Simon à ce moment]
+
+IF (Le joueur fais un doigts){
+	> Simon
+		- Votre gestuel est à la hauteur de votre vocabulaire ! Mais c'est bien ! Vous
+		savez deja vous servir de vos doigts !
+}
+
+WAIT (1-2 s)
+
+> Simon
+	(?) parle d'un ton "autin"
+	- [Prend son soufle] Un Voyant mon cher ami est quelqu'un qui Voit ! A contraio d'un non-voyant, tel que
+	vous ! Je reste humain malgré tout, là est dailleurs notre seul point commun !
+
+> Jacky
+	- Tu veux dire quoi par Voit ?
+
+> Simon
+	- Des images ! Des couleurs, votre faciès ingras !
+
+> Jacky
+	- 'Speze /?\ Espece /?\ d'enfoirdure ! Attend que j'tattrape !
+
+[La voix de Simon s'éloigne]
+
+> Simon 
+	- Ha ha ha !
+
+<- IG ->
+// Le joueur doit ratraper Simon qui est en déplacement libre semi aléatoire
+// La voix de Jacky dépendra biensur de là ou il se trouve, tel est l'indice pour le joueur afin 
+// de le retrouver
+
+// Le joueur doit Toucher Simon, pas seulement le ratraper
+
+WHILE (Jacky n'a pas frappé Simon) {
+	RAMDOM {
+		CASE 1 :
+			> Simon
+				- Je suis là !
+		CASE 2 :
+			> Simon
+				- Attrape Moi ! (?) dragon de South park
+		CASE 3 :
+			> Jacky
+				- T'es ou merde !?
+		CASE 4 :
+			> Simon
+				- Par ici !
+	}
+
+}
+
+> Jacky 
+	- J'te tiens !
+
+> Simon
+	[Jacky lui tiens la burne, cela doit se renssentir dans la voix de Simon]
+	- Vous .. Vous me tenez .. Vous ... VOUS ME TENEZ LA COUILLE ! Lachez ça !
+
+> Jacky
+	- Gnaah ! [Bruit de dégout, ref : palamashow le contable (elle est ou jeanne ?) lors du speed deting (echantillion d'urine)]
+
+
+
+
+#################
+#### Tome 2 : ###
+## La Rupture  ##
+#################

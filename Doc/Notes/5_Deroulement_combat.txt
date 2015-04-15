@@ -1,0 +1,10 @@
+# Couloir / Event : 
+Rencontre du mob dans le Donjon (couloir ou Event)
+
+Les mobs se balade "alétoirement" dans le donjon (hors Event). Ils emettent tous un son propre
+à eux (son différent pour les Streums). Quand on trigger entre, lance le combat.
+
+(?) Tant qu'il y a des mobs dans une salle, il est impossible de l'explorer (options désactivé jusqu'a vidage de la salle)
+# Annonce :
+Simon anonce le monstre :
+	- Ah ! C'est un $MOB.NAME de niveau #MOB.LEVEL

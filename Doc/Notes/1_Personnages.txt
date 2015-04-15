@@ -1,0 +1,59 @@
+Légende ;
+<R> : Race
+<C> : Catégorie
+{? (...) -> (...) } : 
+	? (...) : Le joueur ne le sait pas. Il peut l'apprendre au cours de l'histoire.
+	-> (...) : Ce que le joeur sait / croit.
+
+Strucutre :
+#NOM# : <R> #RACE# <C> #CATEGORIE
+	- #INFOS#
+	- ...
+
+############################
+# Personnages principaux : #
+############################
+
+Jacky Lérot : <R> Humain <C> Non-voyant
+	- Equivalent : L'enfant
+	- Role : Le joueur
+	- Rencontre : ...
+	- Indice de voix : GREG ! DIRECT !
+	- Caractere : Curieux, naif, inoncent, vulgaire(?) change au cours de l'histoire
+
+
+Simon : {? <R> Voyant <C> Voyant -> <R> Humain <C> Voyant }
+	- Equivalent : Le parent / tuteur 
+	- Role : Voix Off (?) + Narateur
+	- Rencontre : Dés le début
+	- Indice de voix : [Thomas] Gobelin de HS, voix aigue, rigolote.
+	- Caractere: Jovial, joueur, paternel, moqueur, futé
+
+
+
+############################
+# Personnages secondaires: #
+############################
+
+Marika TacheDeGras : <R> Pouilleuse <C> AUCUNE
+	- Equivalent : 
+	- Role :
+	- Rencontre :
+	- Indice de voix : [Donia]
+	- Caractere :
+
+
+
+
+############################
+# Compagnons:              #
+############################
+Docteur Ievski : <R> Humain <C> Pure
+
+Poissac 
+	- Reference : Cassiop'
+
+Monsieur Goldberg
+
+Mouss : <R> Humain <C> Golmon
+

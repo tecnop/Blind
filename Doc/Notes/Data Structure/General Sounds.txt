@@ -1,0 +1,20 @@
+# Walk steps :
+	// Chaussure, Cuir, truc avec semelle ...
+	shoes.wav,
+	// Pierre, Pas LOURD
+	stone.wav,
+	// Chaire, décomposition, diforme, bruit de flaque ...
+	flesh.wav,
+	//
+
+# Attack type
+	iron.wav,
+	punch.wav
+	flesh.wav,
+	stone.wav
+
+
+# Taking attack (armor ?)
+	iron.wav,
+	flesh.wav,
+	

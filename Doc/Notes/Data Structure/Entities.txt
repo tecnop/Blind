@@ -1,0 +1,13 @@
+Mob : {
+	name <string>,
+	stats : {}
+	sounds : {
+		attack <wav>,
+		death <wav>,
+		walk <wav>, // Ref ? Id ? Index ?
+		
+
+	},
+	ai <AI>,
+
+}

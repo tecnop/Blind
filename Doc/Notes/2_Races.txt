@@ -1,0 +1,140 @@
+
+#############
+## Races : ##
+#############
+
+
+
+Faune <Race ET Catégorie>
+	- Caractéristique : Monstre, Diforme, 
+	- Equivalence : Mobs, animaux, toussa
+	- Histoire : présent dès l'origine du Donjon. Ils sont majoritairement hostile envers tous
+	le monde. Ils sont dépourvu d'intéligence dite "complexe".
+
+Pouilleux 
+	- Caractéristique : Humanoïde, Diforme, sous-race du Donjon
+		leurs nom de famille provienne du champs léxical de la Crasse (tache, croite, égout etc ...)
+	- Equivalence : SDF, Smicard, Shlag, Nosferatus (pour l'inspiration)
+	- Histoire : 
+		# Comment sont ils arrivés :
+		
+		# Actuellement :
+		Rebuts du Donjon
+
+Humains
+	- Caractéristique : Humanoïde, majorité des habitant du Donjon
+	- Equivalence : Nous, les "Normaux"
+	- Histoire : La majorité des habitants du donjon sont "Humain"
+
+Streums <Race ET Catégorie>
+	- Caractéristique  : Diforme, gardien de l'Ordre, présent dans les Couloirs du Donjon
+	- Equivalence : Police
+	- Histoire : Force "indépendante" errant dans le Donjon avec comme seul but le matient
+	de l'Ordre. Ils ne peuvent appartinir à une Catégorie.
+
+Licorne 
+	- Caractéristique : 
+		# Pre-rupture
+		Diforme, Humanoïde, Mage, boulgi boulga de tous, il est le Créateur.
+		
+	- Equivalence :
+		# Pre-rupture
+ 		Le Système (avec un grand S), Métaphore
+	- Histoire :
+		# Pre-rupture
+		Le seigneur, maitre, gouroux du Donjon. Seul et unique, il dirige le Donjon et est
+		a la base de tout ce qui ce passe / c'est passé au sein du Donjon.
+		# Post-rupture
+		Invention délibéré des Voyants
+	
+
+
+
+##################
+## [Catégorie]: ##
+##################
+
+Non-voyant 
+	- Equivalence : "Les gens"
+	- Histoire : non-voyant, en réponse aux "Voyants".
+	Il caractérise ceux qui ne connaissent pas les machaniques proprent au Donjon. Etre Non-voyant n'est pas forcément
+	signe de bétise. Les non-voyant "subissent" le Donjon. Etre non-voyant signifie juste un manque de connaissance, ou de
+	volonté, à connaitre le Donjon et à y intégrer ses concepts.
+
+Voyant <Race en #Post-rupture>
+	- Equivalence : L'Elite de la société
+	- Histoire : Ainsi sont nommés ceux qui voyent (avec les zyeux !). Peuvent être concidéré comme des "sages"
+	, leur connaissance du Donjon et de ses mechaniques leur donne ce titre. Il sont généralement "vieux"
+	, due à leur vécu au sein du Donjon. Il pense voir, mais ne voie que ce que le Donjon veut qu'ils voient.
+	Ils sont les Sages des habitants du Donjons, mais sont'il "voyant" pour autant ?
+	- Anecdotes :
+		# Bien que Humain, les Voyant n'aime pas etre "traité" d'Humain. Ils se pensent supérieur, et
+		trone au sommet (quoique ..) de la hiérarchie du Donjon.
+
+Sage 
+	- Equivalence : Les lobyiste, ceux qui gouvernent le monde
+	- Histoire : Certain Voyant s'autoproclame Sage. D'autre habitant du Donjon peuvent aussi conssidérer comme
+	Sage une personne (quelque soit sa race). Les Sages sont généralement des Voyant. Dans l'ordre des chose, un
+	Sage est au dessus d'un voyant.
+
+Golmon 
+	- Equivalence : Les contestataire, anarchiste
+	- Races : Humain / autres
+	- Titre : Golmon, traitres
+	- Histoire : Ceux qui refusent ouvertement le Donjon.
+
+Pure
+	- Equivalence : Les croyants / religieux
+	- Histoire : 
+	- Anecdotes :
+		# Ils appelent La Licorne le "Poney corné". C'est pour eux le seul nom valable
+		de La Licorne. Il ne supporte pas une autre appélation.
+
+####################
+## [Hiérarchie] : ##
+####################
+
+#
+### Par RACE ###
+#
+# Pre-rupture :
+
+0 : La licorne
+1 : Streum
+2 : Humain
+4 : Pouilleux
+5 : Faune
+
+
+# Post-rupture :
+Changement :
+Les Sage sont FICTIF
+La Licorne est FICTIVE
+Les voyants sont une RACE, non une Catégorie
+
+0 : Voyant
+1 : Streum
+2 : Humain
+4 : Pouilleux
+5 : Faune
+
+#
+### Par Catégorie ###
+#
+# Pre-rupture :
+0 : La Licorne
+1 : Sage
+2 : Streum
+3 : Voyant
+4 : Pure
+5 : Non-voyant
+6 : Faune
+7 : Golmon
+
+# Post-rupture :
+0 : Voyant (race et catégorie)
+1 : Streum
+2 : Non-voyant
+3 : Faune
+4 : Golmon
+5 : Pure (?)

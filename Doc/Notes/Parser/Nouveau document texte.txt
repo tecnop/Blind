@@ -1,0 +1,10 @@
+
+object : {
+
+	function : (context) {
+		if(context.player.hasTouch() && context.player.getTouchedEntity() == context.allies.simon.id){
+			return "super ! tu a reussi";
+		}
+	}
+
+}
