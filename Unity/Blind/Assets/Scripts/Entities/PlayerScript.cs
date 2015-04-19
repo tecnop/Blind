@@ -24,7 +24,7 @@ public class PlayerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		_entityManager.objectTransform.LookAt (_entityManager.objectTransform.position - _rightHandTransform.position);
+		//_entityManager.objectTransform.LookAt (_entityManager.objectTransform.position - _rightHandTransform.position);
 	}
 
 	public EntityManager entityManager {
