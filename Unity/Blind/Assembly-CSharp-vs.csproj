@@ -39,25 +39,37 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>E:/Programmes/Unity 5/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>E:/Programmes/Unity 5/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\Entities\EntityManager.cs" />
      <Compile Include="Assets\Scripts\Entities\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\Entities\Stats.cs" />
      <Compile Include="Assets\Scripts\Inputs\DebugInputInterpretor.cs" />
-     <Compile Include="Assets\Scripts\Inputs\IInputInterpretor.cs" />
      <Compile Include="Assets\Scripts\Inputs\InputActions.cs" />
-     <Compile Include="Assets\Scripts\Inputs\InputParameters.cs" />
+     <Compile Include="Assets\Scripts\Inputs\PadInputInterpretor.cs" />
+     <Compile Include="Assets\Scripts\Kinect\KinectImgControllers\DisplayColor.cs" />
+     <Compile Include="Assets\Scripts\Kinect\KinectImgControllers\DisplayDepth.cs" />
+     <Compile Include="Assets\Scripts\Kinect\KinectModelControllers\KinectModelControllerV2.cs" />
+     <Compile Include="Assets\Scripts\Kinect\KinectModelControllers\KinectPointController.cs" />
+     <Compile Include="Assets\Scripts\Kinect\KinectWrapper\DepthWrapper.cs" />
+     <Compile Include="Assets\Scripts\Kinect\KinectWrapper\DeviceOrEmulator.cs" />
+     <Compile Include="Assets\Scripts\Kinect\KinectWrapper\KinectEmulator.cs" />
+     <Compile Include="Assets\Scripts\Kinect\KinectWrapper\KinectInterop.cs" />
+     <Compile Include="Assets\Scripts\Kinect\KinectWrapper\KinectRecorder.cs" />
+     <Compile Include="Assets\Scripts\Kinect\KinectWrapper\KinectSensor.cs" />
+     <Compile Include="Assets\Scripts\Kinect\KinectWrapper\SkeletonWrapper.cs" />
+     <None Include="Assets\Shaders\Normal-Diffuse.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>E:/Programmes/Unity 5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>E:/Programmes/Unity 5/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

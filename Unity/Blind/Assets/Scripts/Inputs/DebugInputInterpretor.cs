@@ -4,19 +4,20 @@ using System.Collections;
 public class DebugInputInterpretor : MonoBehaviour {
 
 	[SerializeField]
-	PlayerScript _playerScript;
+	private PlayerScript _playerScript;
 
 	private bool _active;
 
 	// Use this for initialization
 	void Start () {
-		_active = true;
+		_active = false;
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
 		if(!_active)
 			return;
+
 
 		// Forward
 		if(Input.GetKey(KeyCode.Z)){
@@ -52,7 +53,6 @@ public class DebugInputInterpretor : MonoBehaviour {
 		}
 		
 	}
-
 
 	// GET / SET
 

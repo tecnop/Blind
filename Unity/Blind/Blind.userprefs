@@ -1,14 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Inputs\DebugInputInterpretor.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Entities\PlayerScript.cs">
     <Files>
-      <File FileName="..\..\..\..\Battle\Assets\Script\PlayerScript.cs" Line="62" Column="35" />
-      <File FileName="Assets\Scripts\Inputs\IInputInterpretor.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Inputs\DebugInputInterpretor.cs" Line="46" Column="4" />
-      <File FileName="Assets\Scripts\Entities\PlayerScript.cs" Line="13" Column="17" />
-      <File FileName="Assets\Scripts\Entities\EntityManager.cs" Line="18" Column="3" />
-      <File FileName="Assets\Scripts\Entities\Stats.cs" Line="48" Column="3" />
-      <File FileName="Assets\Scripts\Inputs\InputParameters.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraScript.cs" Line="35" Column="135" />
+      <File FileName="Assets\Scripts\Inputs\DebugInputInterpretor.cs" Line="4" Column="54" />
+      <File FileName="..\..\..\Kinect1.7UnityWrapper\Kinect1.7UnityProject\Assets\Script\Kinect\KinectWrapper\KinectEmulator.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Kinect1.7UnityWrapper\Kinect1.7UnityProject\Assets\Script\Kinect\KinectWrapper\KinectSensor.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Kinect1.7UnityWrapper\Kinect1.7UnityProject\Assets\Script\Kinect\KinectWrapper\KinectInterop.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Kinect1.7UnityWrapper\Kinect1.7UnityProject\Assets\Script\Kinect\KinectWrapper\SkeletonWrapper.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Inputs\PadInputInterpretor.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Inputs\InputActions.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Entities\PlayerScript.cs" Line="7" Column="1" />
+      <File FileName="Assets\Scripts\Kinect\KinectModelControllers\KinectModelControllerV2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Kinect\KinectWrapper\KinectEmulator.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
