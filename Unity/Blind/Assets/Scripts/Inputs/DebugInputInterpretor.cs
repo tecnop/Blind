@@ -6,52 +6,50 @@ public class DebugInputInterpretor : MonoBehaviour {
 	[SerializeField]
 	private PlayerScript _playerScript;
 
+	[SerializeField]
 	private bool _active;
 
 	// Use this for initialization
 	void Start () {
-		_active = false;
+
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
 		if(!_active)
 			return;
-
-
+		
 		// Forward
-		if(Input.GetKey(KeyCode.Z)){
-			Vector3 nextPos = Vector3.Lerp(this._playerScript.entityManager.objectTransform.position,
-			                               (this._playerScript.entityManager.objectTransform.position + Vector3.forward),
-			                               Time.deltaTime* (this._playerScript.entityManager.stats.currentMoveSpeed * 3f) );
-
-			this._playerScript.entityManager.moveTo(nextPos);
+		if(Input.GetKey(KeyCode.Z)){			
+			_playerScript.playerMoveScript.moveForward();
 		}
 
 		// Backward
 		if(Input.GetKey(KeyCode.S)){
-			Vector3 nextPos = Vector3.Lerp(this._playerScript.entityManager.objectTransform.position,
-			                               (this._playerScript.entityManager.objectTransform.position + (-Vector3.forward)),
-			                               Time.deltaTime* (this._playerScript.entityManager.stats.currentMoveSpeed * 3f) );
-
-			this._playerScript.entityManager.moveTo(nextPos);
+			_playerScript.playerMoveScript.moveBackward();
 		}
-		if(Input.GetKey(KeyCode.Q)){
-			Vector3 nextPos = Vector3.Lerp(this._playerScript.entityManager.objectTransform.position,
-			                               (this._playerScript.entityManager.objectTransform.position + Vector3.left),
-			                               Time.deltaTime* (this._playerScript.entityManager.stats.currentMoveSpeed * 3f) );
 
-			this._playerScript.entityManager.moveTo(nextPos);
-		}
+		// Right
 		if(Input.GetKey(KeyCode.D)){
-			
-			Vector3 nextPos = Vector3.Lerp(this._playerScript.entityManager.objectTransform.position,
-			                               (this._playerScript.entityManager.objectTransform.position + Vector3.right),
-			                               Time.deltaTime* (this._playerScript.entityManager.stats.currentMoveSpeed * 3f) );
-
-			this._playerScript.entityManager.moveTo(nextPos);
+			_playerScript.playerMoveScript.moveRight();
 		}
-		
+
+		// Left
+		if(Input.GetKey(KeyCode.Q)){
+			_playerScript.playerMoveScript.moveLeft();
+		}
+
+		// Rotate Right
+		if(Input.GetKey(KeyCode.E)){
+			_playerScript.playerMoveScript.rotateRight();
+		}
+
+		// Rotate Left
+		if(Input.GetKey(KeyCode.A)){
+			_playerScript.playerMoveScript.rotateLeft();
+		}
+
+
 	}
 
 	// GET / SET

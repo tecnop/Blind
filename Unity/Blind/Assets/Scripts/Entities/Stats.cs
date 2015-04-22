@@ -20,6 +20,9 @@ public class Stats : MonoBehaviour {
 	float _moveSpeed = 2f;
 
 	[SerializeField]
+	float _rotationSpeed = 60f;
+
+	[SerializeField]
 	float _attackSpeed = 2f;
 
 	// Current
@@ -106,6 +109,15 @@ public class Stats : MonoBehaviour {
 		}
 		set {
 			_currentAttackSpeed = value;
+		}
+	}
+
+	public float rotationSpeed {
+		get {
+			return _rotationSpeed;
+		}
+		set {
+			_rotationSpeed = value;
 		}
 	}
 }

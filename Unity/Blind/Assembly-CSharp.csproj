@@ -39,16 +39,15 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>E:/Programmes/Unity 5/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>E:/Programmes/Unity 5/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraScript.cs" />
      <Compile Include="Assets\Scripts\Entities\EntityManager.cs" />
-     <Compile Include="Assets\Scripts\Entities\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\Entities\Stats.cs" />
      <Compile Include="Assets\Scripts\Inputs\DebugInputInterpretor.cs" />
      <Compile Include="Assets\Scripts\Inputs\InputActions.cs" />
@@ -64,12 +63,15 @@
      <Compile Include="Assets\Scripts\Kinect\KinectWrapper\KinectRecorder.cs" />
      <Compile Include="Assets\Scripts\Kinect\KinectWrapper\KinectSensor.cs" />
      <Compile Include="Assets\Scripts\Kinect\KinectWrapper\SkeletonWrapper.cs" />
+     <Compile Include="Assets\Scripts\Player\ColliderRotationScript.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMoveScript.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerScript.cs" />
      <None Include="Assets\Shaders\Normal-Diffuse.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/Programmes/Unity 5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>E:/Programmes/Unity 5/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

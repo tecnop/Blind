@@ -27,6 +27,7 @@ public class EntityManager : MonoBehaviour {
 
 	public void moveTo(Vector3 dest){
 		_transform.position = dest;
+
 	}
 
 	public void rotateTo(Quaternion rot){

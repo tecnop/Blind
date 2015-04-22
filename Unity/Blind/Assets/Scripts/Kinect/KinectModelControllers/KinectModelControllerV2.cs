@@ -11,7 +11,10 @@ using System;
 using System.Collections;
 
 public class KinectModelControllerV2 : MonoBehaviour {
-	
+
+	[SerializeField]
+	bool _active;
+
 	//Assignments for a bitmask to control which bones to look at and which to ignore
 	public enum BoneMask
 	{
@@ -168,6 +171,8 @@ public class KinectModelControllerV2 : MonoBehaviour {
 	}
 	
 	void Update () {
+		if(!_active)
+			return;
 		//update the data from the kinect if necessary
 		if(sw.pollSkeleton()){
 			for( int ii = 0; ii < (int)Kinect.NuiSkeletonPositionIndex.Count; ii++)
