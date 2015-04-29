@@ -1,1 +1,2 @@
 Dialogues scripté, pas les phrase récurentes (genre "ouille" )
+- à classé par personnages et par phases de jeu
