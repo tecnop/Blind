@@ -66,6 +66,15 @@
      <Compile Include="Assets\Scripts\Player\ColliderRotationScript.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMoveScript.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\Player\WallColliderScript.cs" />
+     <Compile Include="Assets\Scripts\Room\Door.cs" />
+     <Compile Include="Assets\Scripts\Room\MovingAudioSource.cs" />
+     <Compile Include="Assets\Scripts\Room\RoomManager.cs" />
+     <Compile Include="Assets\Scripts\Room\SphereRoomTrigger.cs" />
+     <Compile Include="Assets\Scripts\Room\StaticRoomObject.cs" />
+     <Compile Include="Assets\Scripts\Room\Structure\IRoomComponent.cs" />
+     <Compile Include="Assets\Scripts\Room\Wall.cs" />
+     <Compile Include="Assets\Scripts\Room\WallPart.cs" />
      <None Include="Assets\Shaders\Normal-Diffuse.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Programmes/Unity 5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

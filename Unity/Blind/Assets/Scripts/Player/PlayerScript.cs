@@ -7,6 +7,9 @@ public class PlayerScript : MonoBehaviour {
 	[SerializeField]
 	Transform _displacementTransform;
 
+	[SerializeField]
+	Transform _headTransform;
+
 	/* Skeletonz */
 	// RIGHT
 	[SerializeField]
@@ -23,12 +26,16 @@ public class PlayerScript : MonoBehaviour {
 	Transform _leftHandTransform;
 
 
-	/* Rotation Collider */
+	/* Colliders */
+	// Rotation
 	[SerializeField]
 	ColliderRotationScript _rightRotationCollider;
 
 	[SerializeField]
 	ColliderRotationScript _leftRotationCollider;
+	// Wall
+	[SerializeField]
+	WallColliderScript _wallColliderScript;
 
 	/* Modules */
 	[SerializeField]
@@ -40,6 +47,7 @@ public class PlayerScript : MonoBehaviour {
 	void Awake () {
 		_rightRotationCollider.activate(rotateRight);
 		_leftRotationCollider.activate(rotateLeft);
+		_wallColliderScript.activate (wallPartEnter,wallPartExit);
 	}
 
 	private void rotateRight(GameObject go){
@@ -48,6 +56,16 @@ public class PlayerScript : MonoBehaviour {
 
 	private void rotateLeft(GameObject go){
 		_playerMoveScript.rotateLeft();
+	}
+
+	private void wallPartEnter(GameObject go){
+		WallPart wp = go.GetComponent<WallPart> ();
+		wp.triggerPlayerEnter (this);
+	}
+
+	private void wallPartExit(GameObject go){
+		WallPart wp = go.GetComponent<WallPart> ();
+		wp.triggerPlayerExit (this);
 	}
 
 	// GET / SET
@@ -75,6 +93,12 @@ public class PlayerScript : MonoBehaviour {
 	public PlayerMoveScript playerMoveScript {
 		get {
 			return _playerMoveScript;
+		}
+	}
+
+	public Transform headTransform {
+		get {
+			return _headTransform;
 		}
 	}
 }
