@@ -31,22 +31,22 @@ public class PadInputInterpretor : MonoBehaviour {
 	
 		// Forward
 		if(Input.GetButton("Pad_TopLeft")){
-
+			_playerScript.playerMoveScript.moveForward();
 		}
 		
 		// Backward
 		if(Input.GetButton("Pad_BottomRight")){
-		
+			_playerScript.playerMoveScript.moveBackward();
 		}
 
 		//Left
 		if(Input.GetButton("Pad_BottomLeft")){
-
+			_playerScript.playerMoveScript.moveLeft();
 		}
 
 		// Right
 		if(Input.GetButton("Pad_TopRight")){
-		
+			_playerScript.playerMoveScript.moveRight();
 		}
 
 	}

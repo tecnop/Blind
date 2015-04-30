@@ -12,13 +12,14 @@ public class WallPart : MonoBehaviour, IRoomComponent {
 
 	void Awake(){
 		_active = false;
-		_parentWall = null;
 	}
 
 	public void triggerPlayerEnter(PlayerScript p){
-		if (null == _parentWall)
-			return;
+		Debug.Log ("WallPart triggerPlayerEnter  --> " + (_parentWall == null));
 
+
+
+		Debug.Log ("WallPart triggerPlayerEnter  OK OK");
 		_parentWall.onPlayerEnter (p);
 	}
 

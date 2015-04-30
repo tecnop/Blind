@@ -44,21 +44,36 @@ public class PlayerScript : MonoBehaviour {
 	[SerializeField]
 	Stats _stats;
 
+	private int _handRorationCpt;
+
 	void Awake () {
-		_rightRotationCollider.activate(rotateRight);
-		_leftRotationCollider.activate(rotateLeft);
+		_handRorationCpt = 0;
+
+		_rightRotationCollider.activate(rotateRight,rotationColliderEnter,rotationColliderExit);
+		_leftRotationCollider.activate(rotateLeft,rotationColliderEnter,rotationColliderExit);
+		
 		_wallColliderScript.activate (wallPartEnter,wallPartExit);
 	}
 
+	private void rotationColliderEnter(GameObject go){
+		_handRorationCpt = _handRorationCpt < 2 ? ++_handRorationCpt : 2;
+	}
+	private void rotationColliderExit(GameObject go){
+		_handRorationCpt = _handRorationCpt > 0 ? --_handRorationCpt : 0;
+	}
+
 	private void rotateRight(GameObject go){
+
 		_playerMoveScript.rotateRight();
 	}
 
 	private void rotateLeft(GameObject go){
+	
 		_playerMoveScript.rotateLeft();
 	}
 
 	private void wallPartEnter(GameObject go){
+
 		WallPart wp = go.GetComponent<WallPart> ();
 		wp.triggerPlayerEnter (this);
 	}

@@ -38,14 +38,13 @@ public class Wall : MonoBehaviour, IRoomComponent {
 
 		_player = null;
 
-		foreach (WallPart w in _walls) {
-			w.setParentWall(this);
+		for (int i = 0, len = _walls.Length; i < len ; ++i) {
+			_walls[i].setParentWall(this);
 		} 
 	}
 	
 	public void onPlayerEnter (PlayerScript p){
 		_player = p;
-		Debug.Log ("onPlayerEnter");
 	}
 		
 	public void onPlayerExit (PlayerScript p){
