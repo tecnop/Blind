@@ -8,6 +8,15 @@
 (?) : Proposition de scénar / script / situation etc ..;
 (T) : Le temps (estimation) que prend un dialogue
 
+(M) : Musique
+	(M)-> : Start
+	
+	[LABEL : DEBUT(00m:00s) -> FIN (00m:00s)] (DUREE (00m:00s)) : Indice sur ce qu'il se passe dans le son pedant une certain pédiode
+	
+	(M)<- : End
+
+(E) : Effet (son court)
+
 <- (...) -> : mode du jeu
 	- IG (In Game) le joueur à la main
 	- C (Cinematic) le joueur n'a pas la main
@@ -23,15 +32,138 @@ WHILE (...)
 #### Intro : ####
 # 		#
 #################
+// L'idée est que jacky se réveil sans trop savoir ou / pourquoi. Il va "tombé" tout le longue de la musique
+// en fonction de moments clés du son. Tout au long de sa descente (Monté 2 + 3) il va "croiser" des gens (maman, inconnu, papa, jean-pierre(???))
+// avec qui il va répondre +/- sans comprendre ce qui lui arrive.
 
 <- Cinematic ->
 
 /?\ Intervient apres le lancement du jeu, ou apres l'action de commencer le jeu / partie
-[ Musique un minumum pump and up ]
-[ A la fin de la musique d'intro, bruit de chute : object lourd tombant sur le sol]
+
+(M)-> Sample de Pryapisme - Druide  [1:22s]
+
+[Fondu IN : 0s -> ~10s] (~10s)
+
+[Montée 1 (douce) : 0s -> 0:32s] (32s)
+
+[Jacky se réveille]
 
 - Jacky
-	- Aie !
+	- [Baîîîlle] Aahhhhh .. !
+
+- Jacky
+	- [bruit de bouche "miap miap" pateuse de réveil] .. j'suis ou là ..
+
+- Jacky
+	- Wooo ! j'ai les pieds dans quoi là !
+
+- Jacky
+	- Wooo ! WOoo ! WOOO !
+
+
+[Montée 2 (douce++ / effets chelouxe) : 0:32s -> 0:48s] (16s)
+
+- Jacky
+	- Merde mais j'ma casse la gueule !
+
+[Jacky commence à "tomber"]
+/!\ Toutes les réplique ici jusqu'a la fin devrons être "Fade Out" pour donner l'impression de chute.
+
+[
+- Jacky
+	- Aaaaahhhh [tourne sur lui même, effet de "Son à droite" / "Son à gauche" pour donner une impression de roration sur lui meme]
+
+- Jacky
+	- J'vais vomir !
+
+[Montée 3 (part en nouille !) : 0:48s -> 1:05s] (17s)
+
+(?) Sera surement retrouvé lors du jeu
+(?) Définir ce personnage et gengé "inconnu" par son nom.
+(?) La "licorne" ? (multiple voix H + F)
+- Inconnu Masculin/Feminin 1 :
+	- Bienvenue Jacky. [Voix neutre, sure d'elle, mystérieuse]
+
+
+-  Jacky
+	- Hein ?
+
+- Inconnu Masculin 2 :
+	- Monsieur lérot ! Monsieur lérot ! [voix cordialique / focus, genre interpellé dans le rue]
+
+- Bébé 
+	- Ouinnnn !!
+- Medecin :
+	- [TAP ! TAP !, genre clas au fesses] C'est un garcons !
+
+
+- "Maman" de Jacky 
+	- Bonjour jacky .. !
+
+- Jacky 
+	- Tiens bonjour maman ! [sur un ton enjoué, content de "retrouver sa mere"]
+
+- Jacky
+	- MAMAN ?! [Interloqué]
+
+- Jean-Pierre
+	- Alors Jacky !? On s'la fait cette bouffe ? [voix de collèque]
+
+
+- "Femme" de Jacky
+	- Je t'aime Jacky ...
+
+- Inconnu 3
+	- Et viveuuuh les Bretons ! [chanté]
+
+- Jacky
+	- Mais C'est quoi ce binz ?! (?) Effet de roration (droite / gauche)
+
+
+/!\ l'effet "Fade out" s'accentu, pour augmenter l'impression de chute
+[Montée 4 (PART EN SHNEK !) : 1:05s -> 1:22s] (17s)
+
+- Jacky 
+	- Ca va finir ou ce bordel !?
+
+- Inconnu 4
+	- Attrape !
+
+- "Maman" de Jacky
+	- Jacky !Ne met pas les doigts dans ton nez !
+
+- Inconnu 5
+	- Qui a commandé une calzone ?
+
+- Inconnu 6
+	- Aaahhh ! Monsieur Lérot !
+
+- Inconnue 7
+	- Jacky .. [voix suave]
+
+- Inconnu 8
+	- Jacky !
+
+- Inconnu 9
+	- JACKY !
+
+- Inconnu 10
+	- Jacky lérot vous dite ?
+
+- Jacky
+	- Mais arrêtez ça !
+
+
+[La musique monte]
+
+[ A la fin de la musique d'intro, bruit de chute : object lourd tombant sur le sol]
+
+- Jacky 
+	- AAAAAAAAââââaaaaah ! [Progressif, genre il chute]
+
+[Son de BOM de la musique]
+
+(M)<-
 
 
 #################
@@ -49,9 +181,10 @@ WHILE (...)
 > Jacky :
 	- Aaahh .. 
 	[Se redresse dans la douleur]
-	- Mais kess que j'fous la ...
+	- Mais ou est ce que j'suis tombé moi ...
 	[Petit temps]
 	- Aaaaahhh .. Merde ..
+
 > Simon :
 	- Salut !
 

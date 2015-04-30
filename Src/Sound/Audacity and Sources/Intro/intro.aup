@@ -1,0 +1,157 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="intro_data" version="1.3.0" audacityversion="2.1.0" sel0="42.1982312925" sel1="45.5680272109" vpos="0" h="0.0000000000" zoom="25.8067619199" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags>
+		<tag name="Encoded by" value="Lavf51.12.1"/>
+	</tags>
+	<wavetrack name="01 - Un Druide Est Giboyeux Lorsqu&apos;il Se Prend Pour Un Neutrino" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.562341" pan="0.0">
+		<waveclip offset="-4.27061224">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="2838932">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000863.au" len="243453" min="-0.346589" max="0.300867" rms="0.021128"/>
+				</waveblock>
+				<waveblock start="243453">
+					<simpleblockfile filename="e0000d7d.au" len="262144" min="-0.312441" max="0.251832" rms="0.056554"/>
+				</waveblock>
+				<waveblock start="505597">
+					<simpleblockfile filename="e0000b86.au" len="262144" min="-0.955835" max="0.821735" rms="0.125623"/>
+				</waveblock>
+				<waveblock start="767741">
+					<simpleblockfile filename="e0000678.au" len="262144" min="-0.785233" max="0.790312" rms="0.178901"/>
+				</waveblock>
+				<waveblock start="1029885">
+					<simpleblockfile filename="e0000c88.au" len="262144" min="-0.999527" max="0.980799" rms="0.172311"/>
+				</waveblock>
+				<waveblock start="1292029">
+					<simpleblockfile filename="e0000462.au" len="262144" min="-1.107105" max="1.102865" rms="0.297848"/>
+				</waveblock>
+				<waveblock start="1554173">
+					<simpleblockfile filename="e000082e.au" len="262144" min="-1.059042" max="1.0318" rms="0.298375"/>
+				</waveblock>
+				<waveblock start="1816317">
+					<simpleblockfile filename="e0000c0f.au" len="262144" min="-1.044709" max="1.088732" rms="0.298322"/>
+				</waveblock>
+				<waveblock start="2078461">
+					<simpleblockfile filename="e00003e5.au" len="262144" min="-1.099443" max="1.124676" rms="0.378891"/>
+				</waveblock>
+				<waveblock start="2340605">
+					<simpleblockfile filename="e00002e7.au" len="262144" min="-1.116362" max="1.142619" rms="0.380292"/>
+				</waveblock>
+				<waveblock start="2602749">
+					<simpleblockfile filename="e00000ce.au" len="236183" min="-1.086615" max="1.121574" rms="0.278643"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="01 - Un Druide Est Giboyeux Lorsqu&apos;il Se Prend Pour Un Neutrino" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.562341" pan="0.0">
+		<waveclip offset="-4.27061224">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="2838932">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000021.au" len="243453" min="-0.321691" max="0.266564" rms="0.018862"/>
+				</waveblock>
+				<waveblock start="243453">
+					<simpleblockfile filename="e0000ebc.au" len="262144" min="-0.281409" max="0.274943" rms="0.051841"/>
+				</waveblock>
+				<waveblock start="505597">
+					<simpleblockfile filename="e0000609.au" len="262144" min="-0.977231" max="0.997192" rms="0.127228"/>
+				</waveblock>
+				<waveblock start="767741">
+					<simpleblockfile filename="e0000760.au" len="262144" min="-0.840592" max="0.927261" rms="0.170426"/>
+				</waveblock>
+				<waveblock start="1029885">
+					<simpleblockfile filename="e0000618.au" len="262144" min="-0.999057" max="0.992766" rms="0.180644"/>
+				</waveblock>
+				<waveblock start="1292029">
+					<simpleblockfile filename="e0000e66.au" len="262144" min="-1.097599" max="1.055215" rms="0.278697"/>
+				</waveblock>
+				<waveblock start="1554173">
+					<simpleblockfile filename="e00007e3.au" len="262144" min="-1.075863" max="1.046729" rms="0.286524"/>
+				</waveblock>
+				<waveblock start="1816317">
+					<simpleblockfile filename="e0000e61.au" len="262144" min="-1.081104" max="1.067412" rms="0.304824"/>
+				</waveblock>
+				<waveblock start="2078461">
+					<simpleblockfile filename="e0000066.au" len="262144" min="-1.119652" max="1.126465" rms="0.388642"/>
+				</waveblock>
+				<waveblock start="2340605">
+					<simpleblockfile filename="e0000697.au" len="262144" min="-1.116568" max="1.154634" rms="0.378825"/>
+				</waveblock>
+				<waveblock start="2602749">
+					<simpleblockfile filename="e0000abb.au" len="236183" min="-1.164043" max="1.121232" rms="0.281616"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="warfare explosion long" channel="0" linked="1" mute="0" solo="0" height="150" minimized="1" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="59.37326531">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="375552">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000580.au" len="262144" min="-0.797217" max="0.884757" rms="0.125406"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000d0c.au" len="113408" min="-0.031322" max="0.037415" rms="0.001871"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="3.736210632401" val="0.513888835907"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="warfare explosion long" channel="1" linked="0" mute="0" solo="0" height="150" minimized="1" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="59.37326531">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="375552">
+				<waveblock start="0">
+					<simpleblockfile filename="e000054c.au" len="262144" min="-0.867467" max="0.91178" rms="0.128147"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e00003c1.au" len="113408" min="-0.056461" max="0.056363" rms="0.004552"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="1">
+				<controlpoint t="3.736210632401" val="0.513888835907"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Rock Drops Basement 01 - CRussomFX" channel="0" linked="1" mute="0" solo="0" height="150" minimized="1" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="63.82469388">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="116352">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000430.au" len="116352" min="-0.808225" max="0.971098" rms="0.082843"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Rock Drops Basement 01 - CRussomFX" channel="1" linked="0" mute="0" solo="0" height="150" minimized="1" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="63.82469388">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="116352">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000f91.au" len="116352" min="-0.834105" max="0.786457" rms="0.078439"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="body_fall" channel="0" linked="1" mute="0" solo="0" height="150" minimized="1" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="61.04761905">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="152064">
+				<waveblock start="0">
+					<simpleblockfile filename="e00005ce.au" len="152064" min="-0.858483" max="0.857859" rms="0.081074"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="body_fall" channel="1" linked="0" mute="0" solo="0" height="150" minimized="1" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="61.04761905">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="152064">
+				<waveblock start="0">
+					<simpleblockfile filename="e000031d.au" len="152064" min="-0.855283" max="0.857927" rms="0.080665"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
