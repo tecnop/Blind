@@ -1,0 +1,70 @@
+Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: ATI Radeon HD 4800 Series (ID=0x9442)
+    Vendor:   ATI
+    VRAM:     505 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\TBE_3DCore.dll (this message is harmless)
+Loading E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\TBE_3DCore.dll into Unity Child Domain
+Platform assembly: E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.097 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+Platform assembly: E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Dossier Magique\Projets\Blind\Blind\Unity\son binaural\Test_Data\Managed\System.dll (this message is harmless)
+3Dception: TBE_GlobalListener is not setup or inactive. Have you added it to the main camera and setup the script execution order?
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at TBE_3DCore.TBE_Source.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+3Dception: TBE_GlobalListener is not setup or inactive. Have you added it to the main camera and setup the script execution order?
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+3Dception: TBE_GlobalListener is not setup or inactive. Have you added it to the main camera and setup the script execution order?
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+3Dception: TBE_GlobalListener is not setup or inactive. Have you added it to the main camera and setup the script execution order?
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+3Dception: TBE_GlobalListener is not setup or inactive. Have you added it to the main camera and setup the script execution order?
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+3Dception: TBE_GlobalListener is not setup or inactive. Have you added it to the main camera and setup the script execution order?
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+3Dception: TBE_GlobalListener is not setup or inactive. Have you added it to the main camera and setup the script execution order?
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+3Dception: TBE_GlobalListener is not setup or inactive. Have you added it to the main camera and setup the script execution order?
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+3Dception: TBE_GlobalListener is not setup or inactive. Have you added it to the main camera and setup the script execution order?
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1058 -> priority: 1 
